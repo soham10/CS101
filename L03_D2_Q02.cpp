@@ -1,0 +1,22 @@
+#include <simplecpp>
+main_program{
+turtleSim();
+repeat(4){
+forward(20);right(90);}
+penUp();forward(20);penDown();
+left(90);forward(10);right(90);
+repeat(3){
+forward(40);right(90);}
+forward(10);
+penUp();forward(-10);right(90);
+forward(10);penDown();
+repeat(100){
+forward(0.5);right(3.6);}
+penUp();forward(20);penDown();
+repeat(100){
+forward(0.5);right(3.6);}
+penUp();forward(10);left(90);
+forward(40);right(45);
+penDown();forward(20);
+wait(10);
+}
